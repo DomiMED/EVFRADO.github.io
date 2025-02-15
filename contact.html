@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - EVFRADO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="logo">
+                    <div class="logo-circle"></div>
+                    EVFRADO
+                </a>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="login.html" class="btn btn-secondary">Sign in</a>
+                    <a href="login.html" class="btn btn-primary">Get started</a>
+                </div>
+            </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="animate-in">Contactează-ne</h1>
+            <p class="animate-in">Suntem aici să te ajutăm cu orice întrebare</p>
+        </div>
+    </section>
+
+    <section class="cards-section">
+        <div class="cards-grid">
+            <div class="card animate-in">
+                <h3>Informații de contact</h3>
+                <p>
+                    Email: contact@evfrado.com<br>
+                    Telefon: +40 123 456 789<br>
+                    Adresă: Strada Exemplu, Nr. 123<br>
+                    București, România
+                </p>
+            </div>
+            <div class="card animate-in">
+                <h3>Trimite un mesaj</h3>
+                <form id="contact-form" class="form">
+                    <div class="form-group">
+                        <label for="name">Nume</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mesaj</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Trimite mesajul</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
